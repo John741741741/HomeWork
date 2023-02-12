@@ -6,11 +6,9 @@
 // 22 3 9 -> 22
 
 Console.WriteLine("Введите число");
-string example = Console.ReadLine();
-int a = Convert.ToInt32(example);
+int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
-string example1 = Console.ReadLine();
-int b = Convert.ToInt32(example1);
+int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число");
 string example2 = Console.ReadLine();
 int c = Convert.ToInt32(example2);
